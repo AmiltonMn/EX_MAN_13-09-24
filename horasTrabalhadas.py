@@ -9,7 +9,7 @@ hora = 0
 resp = 0
     
 for i in range(dias):
-    hora = int(input(f'Digite a hora do {i}° dia: \n'))
+    hora = int(input(f'Digite a hora do {i + 1}° dia: \n'))
     resp += hora
     
 print(f'A média de horas trabalhadas é de: {resp/dias}h por dia!')
