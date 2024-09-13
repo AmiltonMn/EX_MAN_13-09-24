@@ -1,3 +1,5 @@
+# https://github.com/Andredev-dias/Base-de-Algoritmos-em-C_v2/blob/master/listacondicional6.c
+
 try:
     qtdAlunos = int(input('De quantos alunos você quer fazer a média?\n'))
     qtdNotas = int(input('Qual a quantidade de notas?\n'))
