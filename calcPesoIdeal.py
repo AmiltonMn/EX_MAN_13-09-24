@@ -21,7 +21,9 @@ while continuar == 1:
         case 'F':
             pesoIdeal = (52.1*altura) - 33.7
             
-    print(f'O peso ideal de {nome} é {pesoIdeal:.2f}')
+    print(f'O peso ideal de {nome} é {pesoIdeal:.2f}\n')
+    
+    print(f'Pessoas que participaram: {numPessoas}\n')
     
     try:
         continuar = int(input('Deseja continuar?\nDigite 1 para sim\nDigite 0 para sair!\n'))
